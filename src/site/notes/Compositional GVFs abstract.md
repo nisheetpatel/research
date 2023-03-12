@@ -1,0 +1,10 @@
+---
+{"dg-publish":true,"permalink":"/compositional-gv-fs-abstract/","created":"","updated":""}
+---
+
+[[Compositional GVFs\|Compositional GVFs]]
+
+## Potential Cosyne Abstract
+*Doubly compositional learning in abstract tasks with interpretable predictions*
+(297 words)
+Much of animal behavior employs compositionality to rapidly acquire and generalize knowledge to new tasks and situations with apparent ease. Despite recent efforts in building models that decompose and solve tasks at different levels of abstraction, most models either perform poorly or lack interpretability. Here, we build a hierarchical, compositional model that learns from describable predictions - Generalized Value Functions (GVFs) - which form a very simple map to policy leading to ultra-fast learning. We utilize the same network architecture and learning rules at multiple levels of abstraction, which makes our approach "doubly compositional", where one circuit learns goal-directed behavior and the other solves the task in an abstract space. We demonstrate our results on two tasks that involve navigating in a maze, both of which require learning at two levels of abstraction: in one, the agent must find two keys to unlock a door at the goal location with the locations of keys changing after a few trials, and in the other, the agent must alternatively navigate to an initiation port and one of two choice ports with reversal after a few trials. We compare our model with several other RL models to demonstrate the ultra-fast learning capabilities of our model. As an example of the highly interpretable and doubly compositional nature of our model, neurons at different levels of abstraction encode (with GVFs) whether going to choice port A is valuable and whether going up from the current location will get them to that port! Our model bears particular importance for neuroscience in light of recent findings where complementary task representations have been observed in PFC and Hippocampus, both of which share similarities in their representation, learning, and other computational properties such as replays, albiet at different levels of abstraction, analogous to our model.
