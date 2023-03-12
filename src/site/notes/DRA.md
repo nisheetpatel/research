@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/dra/","created":"","updated":""}
 ---
 
-[[Research projects MOC\|Research projects MOC]]
+Backlinks: [[Research projects MOC\|Research projects MOC]]
 
 - Publication:
 	- [Patel, Acerbi, Pouget. NeurIPS 2020](https://papers.nips.cc/paper/2020/hash/c4fac8fb3c9e17a2f4553a001f631975-Abstract.html)
