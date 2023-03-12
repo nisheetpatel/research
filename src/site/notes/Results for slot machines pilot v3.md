@@ -108,37 +108,37 @@ Difficulty     0.1510      0.051      2.965      0.003       0.051       0.251
 
 #### Pooled
 
-![Resp-vs-Diff-by-SM_pooled.png|680](/img/user/Resp-vs-Diff-by-SM_pooled.png)
+![Resp-vs-Diff-by-SM_pooled.png|680](/img/user/images/Resp-vs-Diff-by-SM_pooled.png)
 
 #### Individual
 
-![Resp-vs-Diff-by-SM_individual.png](/img/user/Resp-vs-Diff-by-SM_individual.png)
+![Resp-vs-Diff-by-SM_individual.png](/img/user/images/Resp-vs-Diff-by-SM_individual.png)
 
 ### Choice accuracy
 
 #### CA vs Difficulty (pooled)
 
-![CA-vs-Diff-by-Block_pooled.png](/img/user/CA-vs-Diff-by-Block_pooled.png)
+![CA-vs-Diff-by-Block_pooled.png](/img/user/images/CA-vs-Diff-by-Block_pooled.png)
 
 #### CA vs Slot Machine (pooled)
 
-![CA-vs-SM-by-Block_pooled.png](/img/user/CA-vs-SM-by-Block_pooled.png)
+![CA-vs-SM-by-Block_pooled.png](/img/user/images/CA-vs-SM-by-Block_pooled.png)
 
 #### CA vs Difficulty (individual)
 
-![CA-vs-Diff-by-Block_individual.png](/img/user/CA-vs-Diff-by-Block_individual.png)
+![CA-vs-Diff-by-Block_individual.png](/img/user/images/CA-vs-Diff-by-Block_individual.png)
 
 #### CA vs Slot Machine (individual)
 
-![CA-vs-SM-by-Block_individual.png](/img/user/CA-vs-SM-by-Block_individual.png)
+![CA-vs-SM-by-Block_individual.png](/img/user/images/CA-vs-SM-by-Block_individual.png)
 
 ### Reaction times
 
 #### RT vs Difficulty (pooled)
 
-![RT-vs-Diff-by-Block_pooled.png](/img/user/RT-vs-Diff-by-Block_pooled.png)
+![RT-vs-Diff-by-Block_pooled.png](/img/user/images/RT-vs-Diff-by-Block_pooled.png)
 
 #### RT vs Difficulty (individual)
 
-![RT-vs-Diff-by-Block_individual 1.png](/img/user/RT-vs-Diff-by-Block_individual%201.png)
+![RT-vs-Diff-by-Block_individual 1.png](/img/user/images/RT-vs-Diff-by-Block_individual%201.png)
 
