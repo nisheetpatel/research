@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/rl-w-sensorimotor-competence/","created":"","updated":""}
+---
+
+
+# RL w sensorimotor competence
+We must build an RL model that has really good models of vision (and maybe other senses, at least proprioception) and is already fairly competent at moving around and much more than that. It should have been trained to see things, classify objects, know what is where, have a notion of perspective, and at the same time, it should be able to walk around the world, sit, jump, shoot if it has the ability to shoot, and have the capacity to do goal-directed navigation, since these are all fundamentally necessary in order for intelligence to emerge. Only if there is no error in its predictive models of perception and action can it do the tasks that it is supposed to. If there are errors, attention should be directed to the relevant areas to correct them because the agent may be failing at the task simply because its actions or perception is fucked up and not the cognition! These models could and *should be predictive* and not simply feedforward. The agent needs to know and get feedback about its perception and action and whether its model of the world is not working or whether it is a problem with its cognition.
