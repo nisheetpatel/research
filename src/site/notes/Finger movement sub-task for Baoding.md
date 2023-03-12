@@ -97,8 +97,8 @@ self.observation_space = gym.spaces.Box(obs_range[0]*np.ones(self.obs_dim), obs_
 Can do this like how the goal trajectories are generated for both balls in baoding_v0.
 
 The plots (x is x, y is y) below show the full possible range of finger tip locations (from palm fully open to all finger joints fully closed) and half range (from palm fully open to finger joints half-bent):
-![finger_tips_full_range.png|300](/img/user/finger_tips_full_range.png)
-![finger_tips.png|300](/img/user/finger_tips.png)
+![finger_tips_full_range.png|300](/img/user/images/finger_tips_full_range.png)
+![finger_tips.png|300](/img/user/images/finger_tips.png)
 ![Pasted image 20220927150536.png|300](/img/user/images/Pasted%20image%2020220927150536.png)
 
  Target trajectory:
