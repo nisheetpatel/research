@@ -7,8 +7,6 @@
 
 # Research Projects
 
-I am interested in the broad areas of decision-making and memory. I tend to prefer the normative approach for my research projects. I also like to use and develop general-purpose frameworks such as reinforcement learning.
-
 ## Ongoing
 
 #### Focus
@@ -21,7 +19,7 @@ I am interested in the broad areas of decision-making and memory. I tend to pref
 
 #### Slow burn
 
-- [[Laurena's project\|Laurena's project]]
+- [[Dopamine, addiction, RPE, and time\|Dopamine, addiction, RPE, and time]]
 
 ##### Forgotten
 
