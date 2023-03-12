@@ -6,22 +6,24 @@
 
 > [!warning] Under maintenance
 > This page is currently under maintenance! The goal is to place all of my research projects in a visually appealing manner with [Obsidian Canvas](https://obsidian.md/canvas) ([?](https://github.com/zachdoty/BrainPress)). In the meantime, feel free to navigate this page as a wiki using the links below.
+> *If you still see this info tip by 14.04.2023, feel free to send me a message of shame.*
 
-#### Overview
+## Overview
 
 I am interested in understanding principles of human and machine intelligence. Over the past years, most of my work has been somewhere between theoretical neuroscience and reinforcement learning (RL).
 
 On the neuroscience side of things, I have developed normative models of [[Optimal policy for multi-alternative decisions\|decision-making]] and [[DRA\|memory]], and designed [[DRA human experiments\|theory-driven experiments]] to test our understanding of bounded-rational agents. I am also currently developing and using world models with unsupervised learning to test a conjecture for the role of an elusive neurotransmitter, [[Serotonin model\|Serotonin, in the brain]]. I am also involved in an effort to characterize and understand the multi-faceted roles of [[Noise in the brain - the Acerbi conjecture\|noise in the brain]].
 
-For RL, I recently worked on and won the [NeurIPS 2022](https://neurips.cc/Conferences/2022/CompetitionTrack) [MyoChallenge](https://sites.google.com/view/myochallenge) hosted by [Meta AI](https://tech.facebook.com/artificial-intelligence/2022/05/myosuite/). I interned with [Phantasma Labs](https://www.phantasma.global/) around summer of 2022 and worked on developing and benchmarking [benchmarking imitation learning and RL algorithms and libraries](https://github.com/nisheetpatel/sb3-vs-rllib). I also briefly dabbled in a [Pablo](https://pablotano.com/)'s project on [[Compositional GVFs\|Compositional RL]] where we were working on learning primitives for behavior.
+For RL, I recently competed in and won the [NeurIPS 2022](https://sites.google.com/view/myochallenge) [[Myochallenge\|MyoChallenge]] hosted by [Meta AI](https://tech.facebook.com/artificial-intelligence/2022/05/myosuite/). I interned with [Phantasma Labs](https://www.phantasma.global/) around summer of 2022 and worked on developing and benchmarking [benchmarking imitation learning and RL algorithms and libraries](https://github.com/nisheetpatel/sb3-vs-rllib). I also briefly dabbled in a [Pablo](https://pablotano.com/)'s project on [[Compositional GVFs\|Compositional RL]] where we were working on learning primitives for behavior.
 
 Back in my Chemistry days, I worked on a non-invasive neurotechnology to deliver drugs to the brain ([article](https://www.nature.com/articles/s41467-020-18059-7), [press](https://www.swissinfo.ch/eng/new-technique-delivers-drugs-deep-inside-the-brain/46076736)) and [simulated DNA in carbon nanotubes](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b12044) for some more drug-delivery ideas.
 
+A lot of this, including the making of this website, has been possible thanks to the generous [PhD Booster award](https://www.unige.ch/medecine/fr/organisation/fundraising/booster/phd-booster-edition-2021-decouvrez-les-laureates-meet-the-winners/), [[Jeenal Patel\|my sister's wonderful illustrations]], and my [[Scientific collaborators\|Scientific collaborators]].
 
 ---
 
 > [!info] Info
-> Here are some of my semi-organized research projects. If you still see this info tip by 14.04.2023, feel free to send me a message of shame.
+> Here are some of my semi-organized research projects. Feel free to navigate them by hovering over or clicking through the links, searching for something directly in the sidebar, or finding it on the graph.
 
 
 
@@ -64,7 +66,7 @@ Back in my Chemistry days, I worked on a non-invasive neurotechnology to deliver
 - [[Serotonin immersion grant\|Serotonin immersion grant]]
 - [[Optimal policy for multi-alternative decisions\|Optimal policy for multi-alternative decisions]]
 
----
+
 ## Half-baked ideas
 
 Other than these, I also have some [[Seedling ideas\|Seedling ideas]] and [[Half-baked ideas\|Half-baked ideas]] which will hopefully evolve over time.
