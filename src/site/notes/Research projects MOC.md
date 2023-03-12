@@ -36,7 +36,7 @@
 - [[Serotonin immersion grant\|Serotonin immersion grant]]
 - [[Optimal policy for multi-alternative decisions\|Optimal policy for multi-alternative decisions]]
 
----
+
 ## Half-baked ideas
 
 Other than these, I also have some [[Seedling ideas\|Seedling ideas]] and [[Half-baked ideas\|Half-baked ideas]] which will hopefully evolve over time.
