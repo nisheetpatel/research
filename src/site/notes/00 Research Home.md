@@ -23,7 +23,7 @@ A lot of this, including the making of this website, has been possible thanks to
 ---
 
 > [!info] Info
-> Here are some of my semi-organized research projects. Feel free to navigate them by hovering over or clicking through the links, searching for something directly in the sidebar, or finding it on the graph.
+> Here are some of my semi-organized research projects. For now, feel free to navigate them as a wiki.
 
 
 
