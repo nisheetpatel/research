@@ -11,8 +11,21 @@ Our initial discussions helped shape the conjecture that serotonergic neurons ma
 
 Read my notes on [[The role of serotonin\|The role of serotonin]] to get more of a flavor of where we're coming from. We're marrying those ideas with the framework of [[Dynamical VAEs\|Dynamical VAEs]] and [Ha & Schmidhuber's world models](https://worldmodels.github.io/). The plan is to submit it to NeurIPS with their May 2023 deadline, and here are some more resources for the project:
 
+#### Notes
+
+##### Preliminary write up
+
 - [[The role of serotonin\|The role of serotonin]]
 - [[Dynamical VAEs\|Dynamical VAEs]]
+
+##### Meeting notes and roadmap
+
 - [[Serotonin model meeting with Zach\|Serotonin model meeting with Zach]]: 9th Feb, 2023
+- [[Serotonin task meeting with Zach\|Serotonin task meeting with Zach]]: 14th March, 2023
 - [[Roadmap for moving MNIST task\|Roadmap for moving MNIST task]]
-- [Github repository for serotonin model](https://github.com/FelixHub/serotonin_model)
+
+##### Project resources
+
+- [Github repository](https://github.com/FelixHub/serotonin_model)
+- [Zotero library](https://www.zotero.org/groups/4868946/the_role_of_serotonin)
+- [NeurIPS 2023 draft](https://www.overleaf.com/project/64108e393d0883fda7d0b151)
