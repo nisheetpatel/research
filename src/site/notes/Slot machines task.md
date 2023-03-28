@@ -14,7 +14,7 @@
 
 ## Results
 
-We got good [[Results for slot machines pilot v3\|Results for slot machines pilot v3]]. Pilots 1 & 2 were not nearly as convincing. However, Antonio mentioned in our [[Slot machines pilot v3 meeting\|Slot machines pilot v3 meeting]] that the analyses were not at all Kosher. 
+We got good [[Results for slot machines pilot v3\|Results for slot machines pilot v3]]. Pilots 1 & 2 were not nearly as convincing. However, Antonio mentioned in our [[Slot machines pilot v3 meeting\|Slot machines pilot v3 meeting]] that the analyses were not Kosher. After building the proper hierarchical models, [[Results for slot machines pilot v3.1\|here's what we find]].
 
 
 ## Change log
