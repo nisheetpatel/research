@@ -25,6 +25,10 @@ Define 3 visuomotor gain modes $g$:
 Define the phase of the wallpaper as $\theta$, where $\theta\in[0,\ 2\pi]$.
 
 
+> [!danger] Skip for v0
+> I suggest that we skip the wallpaper phase manipulation for our first attempt to make things simpler. It would unnecessarily complicate the task generation and honestly, I'm not 100% certain that it would be possible.
+
+
 ##### Pseudocode
 
 - Sample a random time step $t_\text{switch}$
