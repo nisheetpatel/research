@@ -20,8 +20,8 @@ Read my notes on [[The role of serotonin\|The role of serotonin]] to get more of
 
 ##### Meeting notes and roadmap
 
-- [[Serotonin model meeting with Zach\|Serotonin model meeting with Zach]]: 9th Feb, 2023
-- [[Serotonin task meeting with Zach\|Serotonin task meeting with Zach]]: 14th March, 2023
+- [[Serotonin model meeting 1\|Serotonin model meeting 1]]: 9th Feb, 2023
+- [[Serotonin task meeting 2\|Serotonin task meeting 2]]: 14th March, 2023
 - [[Roadmap for moving MNIST task\|Roadmap for moving MNIST task]]
 
 ##### Project resources
