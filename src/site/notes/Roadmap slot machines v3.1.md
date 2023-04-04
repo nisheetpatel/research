@@ -3,39 +3,45 @@
 ---
 
 
-### 3.1.0
+## Analyses
 
-##### Experiment
+##### meeting March 31 discussion
 
-- [x] Get experiment ready to collect data
-- [x] Collect data for 45 extra subjects
-	- [x] Seems like we only have data for 42 subjects; 1 failed the test
-- [x] Check data and tell Liz about missing data
+- [x] Email Antonio to meet next week, Tuesday?
+- [ ] Refactor code (refer 3.1.x)
 
-##### Code
+##### 3.1.3
 
-- [x] Independent hierarchical models for each slot machine
-- [x] function for cleaning and organizing data for stan
-- [x] function to test for model signatures
+- [ ] Merge `process`, `filter`, `hierarchical.clean_data`
+- [x] Plot group-level posteriors subjects above chance ordered by performance
+- [x] Plot correlation of beta with performance
+	- [x] Color each slot machine or separate plot
+	- [x] At group-level
+	- [ ] Individual for top subjects
+
+##### 3.1.4
+
+- [ ] Make a module for `psytrack`
+	- [ ] Multiple runs with different starting points
+	- [ ] Verify that this avoids flat lines failure mode
+
+##### 3.1.5
+
+- [ ] Fix paths by including `definitions` and using `pathlib`
+- [ ] Write a script to do analyses from scratch
+- [ ] Delete all old figures or move to archive
+
+#### Model fitting
+
+- [ ] Play with [PyVBMC](https://github.com/acerbilab/pyvbmc)
+- [ ] Compute likelihood for RL models: how?
+- [ ] Add standard RL & Bayesian ideal observer models to the roster
 
 
-### 3.1.1
 
-- [x] Code proper hierarchical models
-	- [x] joint distribution for betas with common alpha
-	- [x] joint distribution for betas and alphas
+## Archive
 
-### 3.1.2
-
-#### Major refactoring needed
-
-- [x] `process`
-	- [x] Separate `get_dataframes()`:
-		- [x] `load_choice_data()`
-		- [x] `load_instructions_data()`
-- [ ] 
-
-## Goal for analyses
+#### Goal for analyses
 
 Our goal is to do the following:
 
@@ -73,3 +79,40 @@ Our goal is to do the following:
 
 - Joint betas, common alpha
 - Joint betas, joint alphas
+
+#### Code
+
+##### 3.1.0
+
+- [x] Experiment
+	- [x] Get experiment ready to collect data
+	- [x] Collect data for 45 extra subjects
+		- [x] Seems like we only have data for 42 subjects; 1 failed the test
+	- [x] Check data and tell Liz about missing data
+- [x] Code
+	- [x] Independent hierarchical models for each slot machine
+	- [x] function for cleaning and organizing data for stan
+	- [x] function to test for model signatures
+
+##### 3.1.1
+
+- [x] Code proper hierarchical models
+	- [x] joint distribution for betas with common alpha
+	- [x] joint distribution for betas and alphas
+
+##### 3.1.2
+
+*Major changes*
+
+- [x] `process`
+	- [x] Separate `get_dataframes()`:
+		- [x] `load_choice_data()`
+		- [x] `load_instructions_data()`
+- [x] `filter`
+	- [x] performance metrics
+	- [x] filterer
+- [x] `hierarchical`
+	- [x] stan hierarchical model fit, save, load
+- [x] `workbench_psytrack`
+	- [x] functional psytrack fitting & plotting
+
