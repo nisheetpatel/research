@@ -7,7 +7,7 @@
 
 #### Model
 
-$p\left(y_n|g\left(\alpha_n + \sum_s\mathbb{I}_{n,SM=s}{X}_{n,s}^T {\beta}_{n,s}\right),\theta\right)$
+$p\left(y_n|g\left(\alpha_0 + \sum_s\mathbb{I}_{n,SM=s}\left(\alpha_{n,s} + {X}_{n,s}^T {\beta}_{n,s}\right)\right),\theta\right)$
 
 where:
 - $n\in\{1,...,N\}$ indexes the participant
