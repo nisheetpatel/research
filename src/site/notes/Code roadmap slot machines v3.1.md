@@ -5,29 +5,12 @@
 
 ## Analyses
 
-##### meeting March 31 discussion
+Next up: [[Slot machines model fitting methods\|Slot machines model fitting methods]]
 
-- [x] Email Antonio to meet next week, Tuesday?
-- [/] Refactor code (refer 3.1.x)
-- [?] Merge `process`, `filter`, `hierarchical.clean_data`
+#### v3.2.0
 
-##### 3.1.4
-
-- [ ] Make a module for `psytrack`
-	- [ ] Multiple runs with different starting points
-	- [ ] Verify that this avoids flat lines failure mode
-
-##### 3.1.5
-
-- [ ] Fix paths by including `definitions` and using `pathlib`
-- [ ] Write a script to do analyses from scratch
-- [ ] Delete all old figures or move to archive
-
-#### Model fitting
-
-- [ ] Play with [PyVBMC](https://github.com/acerbilab/pyvbmc)
-- [ ] Compute likelihood for RL models: how?
-- [ ] Add standard RL & Bayesian ideal observer models to the roster
+- [x] Boilerplate code for likelihood computation
+- [ ] Compute gradient update analytically for models
 
 
 
@@ -116,3 +99,21 @@ Our goal is to do the following:
 - [x] Plot correlation of beta with performance
 	- [x] Color each slot machine or separate plot
 	- [x] At group-level
+
+##### 3.1.4
+
+- [x] Document results & send
+- [x] Refactor code (refer 3.1.x)
+- [x] Merge `process`, `filter`, `hierarchical.clean_data`
+
+##### 3.1.5
+
+- [x] Make a module for `psytrack`
+	- [?] Multiple runs with different starting points
+	- [?] Verify that this avoids flat lines failure mode
+
+##### 3.1.5
+
+- [x] Fix paths by including `definitions` and using `pathlib`
+- [x] Write a script to do analyses from scratch
+- [x] Delete all old figures or move to archive
