@@ -12,7 +12,7 @@
 
 I am interested in understanding principles of human and machine intelligence. Over the past years, most of my work has been somewhere between theoretical neuroscience and reinforcement learning (RL).
 
-On the neuroscience side of things, I have developed normative models of [[Optimal policy for multi-alternative decisions\|decision-making]] and [[DRA\|memory]], and designed [[DRA human experiments\|theory-driven experiments]] to test our understanding of bounded-rational agents. I am also currently developing and using world models with unsupervised learning to test a conjecture for the role of an elusive neurotransmitter, [[Serotonin model\|Serotonin, in the brain]]. I am also involved in an effort to characterize and understand the multi-faceted roles of [[Noise in the brain - the Acerbi conjecture\|noise in the brain]].
+On the neuroscience side of things, I have developed normative models of [[Optimal policy for multi-alternative decisions\|decision-making]] and [[DRA\|memory]], and designed [[DRA human experiments\|theory-driven experiments]] to test our understanding of bounded-rational agents. I am also currently developing and using world models with unsupervised learning to test a conjecture for the role of an elusive neurotransmitter, [[Serotonin project\|Serotonin, in the brain]]. I am also involved in an effort to characterize and understand the multi-faceted roles of [[Noise in the brain - the Acerbi conjecture\|noise in the brain]].
 
 For RL, I recently competed in and won the [NeurIPS 2022](https://sites.google.com/view/myochallenge) [[Myochallenge\|MyoChallenge]] hosted by [Meta AI](https://tech.facebook.com/artificial-intelligence/2022/05/myosuite/). I interned with [Phantasma Labs](https://www.phantasma.global/) around summer of 2022 and worked on developing and benchmarking [benchmarking imitation learning and RL algorithms and libraries](https://github.com/nisheetpatel/sb3-vs-rllib). I also briefly dabbled with [Pablo](https://pablotano.com/)'s project on [[Compositional GVFs\|Compositional RL]] where we were working on learning primitives for behavior.
 
@@ -41,7 +41,7 @@ A lot of this, including the making of this website, has been possible thanks to
 
 #### Focus
 
-- [[Serotonin model\|Serotonin model]]
+- [[Serotonin project\|Serotonin project]]
 - [[Myochallenge\|Myochallenge]]
 - [[DRA human experiments\|DRA human experiments]]
 - [[DRA vs Max Ent RL\|DRA vs Max Ent RL]]
