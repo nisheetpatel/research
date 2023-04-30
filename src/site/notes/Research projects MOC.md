@@ -11,7 +11,7 @@
 
 #### Focus
 
-- [[Serotonin model\|Serotonin model]]
+- [[Serotonin project\|Serotonin project]]
 - [[Myochallenge\|Myochallenge]]
 - [[DRA human experiments\|DRA human experiments]]
 - [[DRA vs Max Ent RL\|DRA vs Max Ent RL]]
