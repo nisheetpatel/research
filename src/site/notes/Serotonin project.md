@@ -13,7 +13,7 @@ Read my notes on [[The role of serotonin\|The role of serotonin]] to get more of
 
 #### Notes
 
-##### Preliminary write up
+##### Write ups
 
 - [[The role of serotonin\|The role of serotonin]]
 - [[Dynamical VAEs\|Dynamical VAEs]]
