@@ -33,10 +33,17 @@ Our key contributions include a formal conjecture for a plausible role of seroto
 
 Needs to be refined in the following format:
 
-1. Our work is related to studies investigating what DRN neurons encode... However, we have a framework whereas they did not.
-2. Our work is also related to studies showing the diversity of responses as well as DA - 5-HT opponency... However, bulk signal.
-3. Our work is related to models by Schmidhuber, DVAE folks, VRNN, etc.
-4. Our work is also related to predictive coding and other ideas which are prominent models of how the brain, especially the cortex, performs general information processing. However, they don't map it to neuromodulatory systems, typically keep it to PFC. Our work maps it directly to a system in the brain.
+1. Our work is related to mapping neuromodulatory systems to key signals used by learning systems:
+	- RPE for RL (Schultz et al. 1997)
+	- Diversity of responses in VTA DA neurons:
+		- Uchida, Witten, Zeb-Kurth Nelson
+	- It is different in that we focus on 5-HT neurons in DRN encoding the learning signal for unsupervised learning instead of VTA DA neurons reflecting the learning signal for RL
+2. Our work is also related to studies investigating what DRN 5-HT neurons encode:
+	- See all the references below
+	- However, we have a framework whereas they did not.
+3. Our work is also related to predictive coding and other ideas which are prominent models of how the brain, especially the cortex, performs general information processing. However, they don't map it to neuromodulatory systems, typically keep it to PFC. Our work maps it directly to a system in the brain.
+4. Our work is related to models proposed by Schmidhuber, DVAE folks, VRNN, etc.
+	- We adopt their models to show the implications of our conjecture, and eventually
 
 Serotonin (5-HT) has been implicated in many functions and this has led to it being considered somewhat mysterious in function in contrast to dopamine, which is associated with reward. Classical studies with, mainly by Jacobs and colleagues found DRN 5-HT neurons responded to a variety of events, often those with some internal (e.g. chewing) or external salience (e.g. opening of a door, tail pinch), as well as being modulated by activity state (sleep vs. wake). Early studies in tasks (Ranade et al.) showed a surprisingly heterogeneous population of responses in DRN, with neurons responding to sensory stimuli, motor actions and rewards and absence of reward. Moreover, the identified 5-HT neurons also showed heterogeneous responses (Cohen et al.), including both rewards and punishments).
 
