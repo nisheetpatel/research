@@ -7,17 +7,6 @@
 
 Neuroscience has established a concrete role for dopamine in the brain as a reward prediction error signal. Serotonin, however, has remained enigmatic, implicated in various functions but lacking a clear, unified explanation. We propose that serotoninergic neurons in the dorsal raphe nucleus (DRN) encode a low-dimensional latent state prediction error (SPE) signal, which reflects the surprise induced by unpredicted changes in the environment. This hypothesis suggests a more general role for serotonin in unsupervised learning processes. To investigate our conjecture, we develop a family of models called Dynamical Variational Autoencoders (DVAEs) that combine the strengths of dynamical models and Variational Autoencoders (VAEs) to capture the dynamics of sequential data and latent factors of data variations. We demonstrate the key ideas using DVAEs on a toy task with moving MNIST digits and a more realistic navigation task with a speed glitch. Our hypothesis is further supported by unpublished neural recordings from mice performing the navigation task, showing consistent responses in DRN serotoninergic neurons during speed glitches, regardless of the direction of change. This work provides a formal framework for understanding the role of serotonin in unsupervised learning and offers insights into the diverse functions of neuromodulatory systems in the brain.
 
-
-## Key contributions of the paper
-
-1. A formal conjecture for a plausible role of serotonin: *The firing rate of serotonergic neurons in the Dorsal Raphe Nucleus (DRN) reflects a latent state prediction error (SPE) signal that is low (but not one) dimensional (and likely probabilistic)*
-2. A framework for learning that gives rise to a low-D latent SPE 
-	- which has contributions from all sensory modalities' observations, and 
-	- reward, which is basically a special observation 
-		- this, in and of itself, matches a lot of the data in the wild. It also predicts an unsigned RPE
-3. Demonstrating the ideas with a family of models - DVAEs - on a toy task (moving MNIST digits) 
-4. Replicating results of never-before-published data from mice performing a navigation task in a no-reward context with a specific model (Ha & Schmidhuber) that is a simple DVAE
-
 #### Points to emphasize
 
 Serotonin response captures:
@@ -27,37 +16,33 @@ Serotonin response captures:
 3. that is modulated by learning
 
 
-## Background 
+## 1. Introduction
 
-#### General 
+Neuromodulatory systems, such as dopamine and serotonin, are pivotal to the brain's learning processes. These biologically ancient systems act as privileged channels of communication, diffusing throughout the brain unlike point-to-point synaptic connections, and modulate neuronal functions through specialized receptors.  While there have been substantial advances in the dopaminergic system, which has been shown to encode a prediction error signal for reinforcement learning (RL), the role of other systems, particularly serotonin, remains enigmatic.
 
-1. Neuromodulatory systems (dopamine, serotonin, norepinephrine, etc.) are biologically ancient and the target of numerous important psychoactive drugs. 
-2. Neuromodulatory systems are privileged channels of communication in the nervous system that: 
-	- act diffusely and through much of the brain at the same time (unlike point-to-point connections made by normal synapses)
-	- act through special receptors to modulate neuronal and synaptic function
-	- can act on a sub-second time scale (unlike hormones, etc) 
-3. Here, we focus on the signal that is being broadcast by serotonin (not on the action it has on the brain) 
- 
-#### Scalar vs. low-dimensional signals 
+Early models proposed by researchers like Dayan and Doya posited that these systems broadcast scalar signals, mainly due to their release by small clusters of neurons in brainstem regions like the ventral tegmental area (VTA) for dopamine and the dorsal raphe nucleus (DRN) for serotonin. However, emerging evidence has begun to challenge this scalar signal assumption, highlighting the signal's heterogeneity (Uchida/Witten/Zeb-Kurth Nelson for DA, Ranade et al. 2009 for 5-HT). This leads to the question of what is captured by the heterogeneity in these signals.
 
-1. Around 1990 Dayan and colleagues and Doya and colleagues proposed mappings from neuromodulatory systems to key variables in reinforcement learning (RL) 
-2. These accounts assumed the systems broadcast a scalar signal, extrapolating from the fact that neuromodulators are released by small clusters of neurons in the brainstem (e.g. dorsal raphe nucleus (DRN) for serotonin)
-3. However, this assumption has begun to be challenged by reports that describe heterogeneity in the signal. 
-4. Here, we examine the idea that serotonin and other neuromodulators can be mapped to vectors in low-dimensional latent space
+In this study, we propose a novel conjecture: serotonergic neurons in the DRN encode a low-dimensional latent state prediction error (SPE) signal, serving as a surprise signal in response to unexpected changes in the environment. This conjecture suggests that neuromodulatory systems, including serotonin, can be mapped to vectors in a low-dimensional latent space, contributing a new perspective to the field.
 
-#### Serotonin responses
+To investigate this conjecture, we present a learning framework that gives rise to a low-dimensional latent SPE. We utilize a family of models called Dynamical Variational AutoEncoders (DVAEs), and simulate them on tasks such as moving MNIST digits to demonstrate the implications of our conjecture. We further validate our models with real-world data from mice performing a virtual reality navigation task.
 
-1. Serotonin (5-HT) has been implicated in many functions and this has led to it being considered somewhat mysterious in function (in contrast to dopamine, which is associated with reward)
-2. Classical studies with, mainly by Jacobs and colleagues found DRN 5-HT neurons responded to a variety of events, often those with some internal (e.g. chewing) or external salience (e.g. opening of a door, tail pinch), as well as being modulated by activity state (sleep vs. wake)
-3. Early studies in tasks (Ranade et al.) showed a surprisingly heterogeneous population of responses in DRN, with neurons responding to sensory stimuli, motor actions and rewards and absence of reward.
-4. Identified 5-HT neurons also showed heterogeneous responses (Cohen), including both rewards and punishments)
+Our key contributions include a formal conjecture for a plausible role of serotonin, a learning framework generating a low-dimensional latent SPE, and demonstrations of the key ideas using DVAEs on toy and realistic tasks. We also provide empirical evidence supporting our hypothesis through neural recordings in mice. Our study thus contributes to the rich history of neuromodulatory system research, offering new insights into the complex machinery of the brain and the principles governing learning and decision-making.
 
 
-#### Serotonin as a state prediction error
+### 1.1. Related work
 
-1. Matias et al. studied DRN 5-HT neurons using fiber photometry, which records a bulk signal, in a reversal learning task in which odor cues were associated with different good or bad outcomes and then those associations were abruptly changed.
-2. They found prominent responses to reversals which were independent of the sign of reversal and tended to adapt or habituate (except to aversive air puffs).
-3. They suggested a 5-HT to signal unsigned error or surprise signal. This could still be reward related, but hints at a more general prediction error. 
+Needs to be refined in the following format:
+
+1. Our work is related to studies investigating what DRN neurons encode... However, we have a framework whereas they did not.
+2. Our work is also related to studies showing the diversity of responses as well as DA - 5-HT opponency... However, bulk signal.
+3. Our work is related to models by Schmidhuber, DVAE folks, VRNN, etc.
+4. Our work is also related to predictive coding and other ideas which are prominent models of how the brain, especially the cortex, performs general information processing. However, they don't map it to neuromodulatory systems, typically keep it to PFC. Our work maps it directly to a system in the brain.
+
+Serotonin (5-HT) has been implicated in many functions and this has led to it being considered somewhat mysterious in function in contrast to dopamine, which is associated with reward. Classical studies with, mainly by Jacobs and colleagues found DRN 5-HT neurons responded to a variety of events, often those with some internal (e.g. chewing) or external salience (e.g. opening of a door, tail pinch), as well as being modulated by activity state (sleep vs. wake). Early studies in tasks (Ranade et al.) showed a surprisingly heterogeneous population of responses in DRN, with neurons responding to sensory stimuli, motor actions and rewards and absence of reward. Moreover, the identified 5-HT neurons also showed heterogeneous responses (Cohen et al.), including both rewards and punishments).
+
+Matias et al. studied DRN 5-HT neurons using fiber photometry, which records a bulk signal, in a reversal learning task in which odor cues were associated with different good or bad outcomes and then those associations were abruptly changed. They found prominent responses to reversals which were independent of the sign of reversal and tended to adapt or habituate (except to aversive air puffs). They suggested a 5-HT to signal unsigned error or surprise signal. This could still be reward related, but hints at a more general prediction error. However, their experiment was done with a reward, which makes it hard to make claims about the surprise signal being related to non-reward related state features.
+
+Our work is also related to predictive coding and other ideas which are prominent models of how the brain, especially the cortex, performs general information processing. We formalise this idea in the context of network models which perform unsupervised learning by learning to predict their inputs. Our work is thus similar in that it is an important non-RL class of models. Our models are derived from the ones proposed by Ha & Schmidhuber 2018, Cheng et al. 2016, and (cite DVAE paper).
 
 ### References
 
@@ -107,11 +92,6 @@ Serotonin response captures:
 	- Individual DRN5-HT neurons responded to diverse combinations of salient stimuli, with some preference for valence and sensory modality
 - [Cohen et al 2015](https://elifesciences.org/articles/6346)
 	- Serotonergic neurons signal reward and punishment (unsigned) on multiple timescales
-
-## Hypotheses
-
-- Here, we formalise this idea in the context of network models which perform unsupervised learning by learning to predict their inputs. This is an important non-RL class of models.
-- This is related to predictive coding and other ideas which are prominent models of how the brain, especially the cortex, performs general information process. 
 
 ## Experiments
 
