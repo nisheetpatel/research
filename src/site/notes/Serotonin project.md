@@ -25,7 +25,7 @@ Read my notes on [[The role of serotonin\|The role of serotonin]] to get more of
 - [[Serotonin task meeting 2\|Serotonin task meeting 2]]: 14th March, 2023
 - [[Roadmap for moving MNIST task\|Roadmap for moving MNIST task]]
 - [[Roadmap for Hallway navigation task\|Roadmap for Hallway navigation task]]
-	- [[Hallway navigation data analysis\|Hallway navigation data analysis]]
+	- [[Hallway navigation mouse data\|Hallway navigation mouse data]]
 
 ##### Project resources
 
