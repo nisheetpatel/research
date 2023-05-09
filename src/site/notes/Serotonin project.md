@@ -23,12 +23,16 @@ Read my notes on [[The role of serotonin\|The role of serotonin]] to get more of
 
 - [[Serotonin model meeting 1\|Serotonin model meeting 1]]: 9th Feb, 2023
 - [[Serotonin task meeting 2\|Serotonin task meeting 2]]: 14th March, 2023
+
 - [[Roadmap for moving MNIST task\|Roadmap for moving MNIST task]]
 - [[Roadmap for Hallway navigation task\|Roadmap for Hallway navigation task]]
 	- [[Hallway navigation mouse data\|Hallway navigation mouse data]]
 
 ##### Project resources
 
+- [Google doc for NeurIPS abstract](https://docs.google.com/document/d/177-gT0KMWau8iuinT8LrpCYNU8XeZbaCwkcA--vWuCM/edit#heading=h.utcei94c1930)
+- [Miro board for paper outline and story](https://miro.com/app/board/uXjVPnA-e5A=/)
+- [Overleaf for full NeurIPS paper](https://www.overleaf.com/project/64108e393d0883fda7d0b151)
 - [Github repository](https://github.com/FelixHub/serotonin_model)
 - [Zotero library](https://www.zotero.org/groups/4868946/the_role_of_serotonin)
-- [NeurIPS 2023 draft](https://www.overleaf.com/project/64108e393d0883fda7d0b151)
+ 
