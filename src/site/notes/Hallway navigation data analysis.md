@@ -3,7 +3,36 @@
 ---
 
 
+
+> [!todo] To do
+> - [ ] Make the same plots for individual mice
+> - [ ] Super-sample "None" trials to make it flatter
+> - [ ] Add data columns for trial, mouse, session to show "session start" and "session end" (SPE) signals
+> - [ ] Get data from Josh & combine to produce plots with all 4 mice
+
+## Figure
+
+1.  Effect of overall "surprise" (multi-modal)
+	- Major = Big gain change AND Big phase shift
+	- Minor = Either but not both big + Either but not both 0
+	- None = both 0
+2.  Effect of glitch type
+	- Both position and speed glitch
+	- Position glitch
+	- Speed glitch
+	- None
+3. Effect of gain change only
+4. Effect of phase shift only
+
+![Figure.png](/img/user/images/Figure.png)
+
+
+## Archive
+
+#### Making sense of the code
+
 Code on [Josh's Github repo](https://github.com/sternj98/gain_change_photometry)
+- Now also on [our repo](https://github.com/FelixHub/serotonin_model) (check the `data` branch in not yet pulled to `main`/`master`)
 
 Most important modules:
 - `datajoint_pipeline/behavior_processing.py`
@@ -57,14 +86,3 @@ class GainChangeEvents(dj.Computed):
 
 > [!bug] Experiment-simulation discrepancy
 > Their wallpaper is striped but with a sinusoidal gradient, whereas ours doesn't have such a gradient.
-
-
-## To do for paper
-
-Extract and plot traces with:
-
-- no glitch (delta) but gain change
-	- there might not be many of these trials
-- no gain change but glitch
-	- should be plenty
-	- bin the delta position to half of the sinusoid 
